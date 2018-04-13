@@ -11,7 +11,7 @@ import scrapy
 import mojimoji
 
 class MatchSpider(scrapy.Spider):
-    name = 'Match'
+    name = 'match'
 
     allowed_domains = [
         'www.jleague.jp'
